@@ -21,4 +21,18 @@ public class HomePage extends BasePage {
         click(alertsJSButton);
         return new AlertFramePage(driver);
     }
+
+    @FindBy(xpath = "//*[34]/a")
+    WebElement nastedFramesButton;
+
+    public NestedFramesPage getNestedFramesPage() {
+        click(nastedFramesButton);
+        return new NestedFramesPage(driver);
+    }
+    @FindBy(xpath = "//*[33]/a")
+    WebElement multipleButton;
+    public MultipleWindowsPage getMultipleWindows() {
+        click(multipleButton);
+        return new MultipleWindowsPage(driver);
+    }
 }
