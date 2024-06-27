@@ -35,4 +35,16 @@ public class HomePage extends BasePage {
         click(multipleButton);
         return new MultipleWindowsPage(driver);
     }
+    @FindBy(xpath = "//*[24]/a")
+    WebElement sliderButton;
+    public HorizontalSliderPage getHorizontalSlider() {
+        click(sliderButton);
+        return new HorizontalSliderPage(driver);
+    }
+    @FindBy(xpath = "//*[25]/a")
+    WebElement hoversButton;
+    public HoversPage getHovers() {
+        click(hoversButton);
+        return new HoversPage(driver);
+    }
 }
