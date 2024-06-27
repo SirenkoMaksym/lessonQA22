@@ -25,6 +25,12 @@ public class NestedFramesTests extends TestBase{
                 .verifyIframeText("BOTTOM");
     }
 
+    @Test
+    public void switchToIframeByElementTest(){
+        new NestedFramesPage(driver).switchToIframeByElement()
+                .verifyIframeText("BOTTOM");
+    }
+
   @Test
     public void switchToNestedMiddleIframeTest(){
         new NestedFramesPage(driver).switchToMiddleNestedIframe()

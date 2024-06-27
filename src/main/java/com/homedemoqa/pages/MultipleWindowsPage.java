@@ -13,12 +13,14 @@ import org.testng.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MultipleWindowsPage extends BasePage{
+public class MultipleWindowsPage extends BasePage {
     public MultipleWindowsPage(WebDriver driver) {
         super(driver);
     }
+
     @FindBy(xpath = "//div[@id='content']/div/a")
     WebElement clickHereButton;
+
     public MultipleWindowsPage switchToNewTabMW(int index) {
         click(clickHereButton);
 
@@ -26,10 +28,12 @@ public class MultipleWindowsPage extends BasePage{
         driver.switchTo().window(tabs.get(index));
         return this;
     }
-@FindBy(xpath = "//div[@class='example']/h3")
-WebElement newWindow;
+
+    @FindBy(xpath = "//div[@class='example']/h3")
+    WebElement newWindow;
+
     public MultipleWindowsPage verifyNewTabWindows(String text) {
-        Assert.assertTrue(shouldHaveText(newWindow, text,3));
+        Assert.assertTrue(shouldHaveText(newWindow, text, 3));
         return this;
     }
 }
