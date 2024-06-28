@@ -5,6 +5,7 @@
 
 package com.homedemoqa.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -31,6 +32,18 @@ public class HorizontalSliderPage extends BasePage{
     WebElement sliderValue;
     public HorizontalSliderPage verifySlider(String value) {
         Assert.assertTrue(shouldHaveText(sliderValue, value, 3));
+        return this;
+    }
+
+
+    public HorizontalSliderPage moveSliderWihtKeys() {
+        Actions actions = new Actions(driver);
+        actions.click(slider)
+                .sendKeys(Keys.LEFT)
+                .sendKeys(Keys.LEFT)
+                .sendKeys(Keys.LEFT)
+                .sendKeys(Keys.RIGHT)
+                .perform();
         return this;
     }
 }

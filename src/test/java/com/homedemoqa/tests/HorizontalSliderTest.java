@@ -19,5 +19,9 @@ public class HorizontalSliderTest extends TestBase{
     public void moveHorizontSlider(){
         new HorizontalSliderPage(driver).moveSlider()
         .verifySlider("5");
+    }@Test
+    public void moveHorizontSliderWith(){
+        new HorizontalSliderPage(driver).moveSliderWihtKeys()
+                .verifySlider("1.5");
     }
 }
