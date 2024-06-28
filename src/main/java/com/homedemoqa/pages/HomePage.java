@@ -29,22 +29,48 @@ public class HomePage extends BasePage {
         click(nastedFramesButton);
         return new NestedFramesPage(driver);
     }
+
     @FindBy(xpath = "//*[33]/a")
     WebElement multipleButton;
+
     public MultipleWindowsPage getMultipleWindows() {
         click(multipleButton);
         return new MultipleWindowsPage(driver);
     }
+
     @FindBy(xpath = "//*[24]/a")
     WebElement sliderButton;
+
     public HorizontalSliderPage getHorizontalSlider() {
         click(sliderButton);
         return new HorizontalSliderPage(driver);
     }
+
     @FindBy(xpath = "//*[25]/a")
     WebElement hoversButton;
+
     public HoversPage getHovers() {
         click(hoversButton);
         return new HoversPage(driver);
+    }
+
+    @FindBy(xpath = "//*[7]/a")
+    WebElement contextMenuButton;
+
+    public ContextMenuPage getContextMenu() {
+        click(contextMenuButton);
+        return new ContextMenuPage(driver);
+    }
+    @FindBy(xpath = "//*[11]/a")
+    WebElement dropdownListButton;
+    public DropdownListPage getDropdownList() {
+        click(dropdownListButton);
+        return new DropdownListPage(driver);
+    }
+    @FindBy(xpath = "//*[10]/a")
+    WebElement dragAndDropButton;
+    public DragAndDropPage getDragAndDrop() {
+        click(dragAndDropButton);
+        return new DragAndDropPage(driver);
     }
 }
