@@ -73,4 +73,16 @@ public class HomePage extends BasePage {
         click(dragAndDropButton);
         return new DragAndDropPage(driver);
     }
+    @FindBy(xpath = "//*[18]/a")
+    WebElement fileUploadButton;
+    public FileUploadPage getFileUpload() {
+        click(fileUploadButton);
+        return new FileUploadPage(driver);
+    }
+    @FindBy(xpath = "//*[28]/a")
+    WebElement menu;
+    public JQueryUIPage getJQueryUIPage() {
+        click(menu);
+       return new JQueryUIPage(driver);
+    }
 }
