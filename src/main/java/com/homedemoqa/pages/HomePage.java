@@ -85,4 +85,16 @@ public class HomePage extends BasePage {
         click(menu);
        return new JQueryUIPage(driver);
     }
+    @FindBy(xpath = "//*[16]/a")
+    WebElement intent;
+    public ExitIntentPage getExitIntent() {
+        click(intent);
+        return new ExitIntentPage(driver);
+    }
+    @FindBy(xpath = "//*[4]/a")
+    WebElement image;
+    public BrokenImagesPage getBrokenImages() {
+        click(image);
+        return new BrokenImagesPage(driver);
+    }
 }

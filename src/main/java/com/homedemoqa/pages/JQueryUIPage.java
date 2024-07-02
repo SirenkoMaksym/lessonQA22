@@ -11,6 +11,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
+import java.io.File;
+
 public class JQueryUIPage extends BasePage {
     public JQueryUIPage(WebDriver driver) {
         super(driver);
@@ -51,4 +53,20 @@ public class JQueryUIPage extends BasePage {
         Assert.assertTrue(isElementVisible(subSubMenuDown));
         return this;
     }
+
+
+    public JQueryUIPage verifyCSVOptionClicked(String downloadPath) {
+        File dir = new File(downloadPath);
+        File[] dirContents = dir.listFiles();
+
+        for (File file : dirContents) {
+            if (file.getName().contains("menu.csv")) {
+                file.delete();
+                return this;
+            }
+        }
+
+        return this;
+    }
+
 }
