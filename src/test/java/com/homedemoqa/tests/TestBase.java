@@ -30,7 +30,7 @@ public class TestBase {
         driver = app.startTest();
     }
 
-    @AfterMethod(enabled = true)
+    @AfterMethod(enabled = false)
     public void tearDown(ITestResult result) {
         app.stopTest();
         if(result.isSuccess()){

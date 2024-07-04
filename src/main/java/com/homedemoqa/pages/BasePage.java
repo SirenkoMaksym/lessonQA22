@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.Duration;
+import java.util.List;
 import java.util.NoSuchElementException;
 
 public abstract class BasePage {
@@ -27,9 +28,10 @@ public abstract class BasePage {
         PageFactory.initElements(driver, this);
         js = (JavascriptExecutor) driver;
     }
-    public void typeWithJS(WebElement element, String text, int x, int y){
+
+    public void typeWithJS(WebElement element, String text, int x, int y) {
         if (text != null) {
-            clickWithJS(element,x,y);
+            clickWithJS(element, x, y);
             element.clear();
             element.sendKeys(text);
         }
@@ -54,38 +56,49 @@ public abstract class BasePage {
 
     public boolean shouldHaveText(WebElement element, String text, int time) {
         return new WebDriverWait(driver, Duration.ofSeconds(time))
-                .until(ExpectedConditions.textToBePresentInElement(element,text));
+                .until(ExpectedConditions.textToBePresentInElement(element, text));
     }
-    public void pause(int millis){
+
+    public void pause(int millis) {
         try {
             Thread.sleep(millis);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
     }
-    public boolean isElementPresent(By locator){
-        return driver.findElements(locator).size()>0;
+
+    public boolean isElementPresent(By locator) {
+        return driver.findElements(locator).size() > 0;
     }
+
+    public boolean isElementPresent(List<WebElement> elements) {
+       return !elements.isEmpty();
+
+        }
+
+
     protected boolean isElementVisible(WebElement element) {
         try {
             element.isDisplayed();
             return true;
-        }catch (NoSuchElementException ex){
+        } catch (NoSuchElementException ex) {
             ex.getMessage();
             return false;
         }
 
     }
-    public void clickWithRectangle(WebElement element, int x, int y){
+
+    public void clickWithRectangle(WebElement element, int x, int y) {
         Rectangle rectangle = element.getRect();
-        int offSetX = rectangle.getWidth()/x;
-        int offSetY = rectangle.getHeight()/y;
+        int offSetX = rectangle.getWidth() / x;
+        int offSetY = rectangle.getHeight() / y;
 
         Actions actions = new Actions(driver);
         actions.moveToElement(element).perform();
-        actions.moveByOffset(-offSetX,-offSetY).click().perform();
+        actions.moveByOffset(-offSetX, -offSetY).click().perform();
 
     }
+
     public void verifyLinks(String linkUrl) {
 
         try {
