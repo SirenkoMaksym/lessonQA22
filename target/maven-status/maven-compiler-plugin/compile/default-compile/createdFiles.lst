@@ -1,0 +1,17 @@
+com\homedemoqa\pages\AddRemoveElementsPage.class
+com\homedemoqa\pages\DragAndDropPage.class
+com\homedemoqa\pages\AlertFramePage.class
+com\homedemoqa\pages\HomePage.class
+com\homedemoqa\pages\JQueryUIPage.class
+com\homedemoqa\pages\HoversPage.class
+com\homedemoqa\pages\ContextMenuPage.class
+com\homedemoqa\utils\DataProviders.class
+com\homedemoqa\pages\BrokenImagesPage.class
+com\homedemoqa\pages\ExitIntentPage.class
+com\homedemoqa\pages\FileUploadPage.class
+com\homedemoqa\pages\NestedFramesPage.class
+com\homedemoqa\pages\DropdownListPage.class
+com\homedemoqa\pages\BasePage.class
+com\homedemoqa\utils\MyListener.class
+com\homedemoqa\pages\HorizontalSliderPage.class
+com\homedemoqa\pages\MultipleWindowsPage.class

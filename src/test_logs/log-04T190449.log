@@ -1,0 +1,8 @@
+19:04:50.677 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+19:04:50.846 [main] INFO  com.homedemoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: contextMenuTest
+19:04:55.324 [main] INFO  com.homedemoqa.utils.MyListener -%PARSER_ERROR[kvp]- After find element --> By.xpath: //*[7]/a
+19:04:55.641 [Forwarding actions on session 8212fd3898e176fcf5d183a84ad7eb46 to remote] INFO  com.homedemoqa.utils.MyListener -%PARSER_ERROR[kvp]- After find element --> By.id: hot-spot
+19:04:56.097 [main] INFO  com.homedemoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED contextMenuTest
+19:04:56.097 [main] INFO  com.homedemoqa.tests.TestBase -%PARSER_ERROR[kvp]- **************************************************************
