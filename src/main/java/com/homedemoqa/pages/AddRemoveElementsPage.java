@@ -27,7 +27,7 @@ public class AddRemoveElementsPage extends BasePage {
     @FindBy(xpath = "//div[@class='example']/button")
     WebElement addButton;
 
-    public AddRemoveElementsPage getAddElemenets() {
+    public AddRemoveElementsPage addElemenets() {
         pause(2000);
         Actions actions = new Actions(driver);
         actions.sendKeys(Keys.TAB, Keys.TAB, Keys.ENTER).perform();
@@ -43,7 +43,7 @@ public class AddRemoveElementsPage extends BasePage {
         return this;
     }
 
-    public AddRemoveElementsPage getRemoveElements() {
+    public AddRemoveElementsPage removeElements() {
         pause(1000);
         Actions actions = new Actions(driver);
 
@@ -66,10 +66,15 @@ public class AddRemoveElementsPage extends BasePage {
     @FindBy(xpath = "//*[@id='elements']/button")
     List<WebElement> list;
 
-    public AddRemoveElementsPage verifyRemoveElements() {
+    public AddRemoveElementsPage verifyRemoveElements1() {
         Assert.assertFalse(isElementPresent(list));
         return this;
     }
+    public AddRemoveElementsPage verifyRemoveElements() {
+        Assert.assertTrue(isElementPresent(list));
+        return this;
+    }
+
 }
 
         // Assert.assertFalse(isElementVisible(removeButton));

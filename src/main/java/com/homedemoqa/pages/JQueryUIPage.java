@@ -69,4 +69,63 @@ public class JQueryUIPage extends BasePage {
         return this;
     }
 
+    public JQueryUIPage hoverEnables() {
+        new Actions(driver).moveToElement(menu).perform();
+        pause(1000);
+        return this;
+    }
+
+    public JQueryUIPage hoverDownloads() {
+        new Actions(driver).moveToElement(subMenuUp).perform();
+        pause(1000);
+        return this;
+    }
+
+    public JQueryUIPage clickPdf() {
+        click(subSubMenuUp);
+        return this;
+    }
+    public JQueryUIPage clickCsv() {
+        click(subSubMenuMiddle);
+        return this;
+    }
+    public JQueryUIPage clickExel() {
+        click(subSubMenuDown);
+        return this;
+    }
+
+    public JQueryUIPage checkFileDownloaded(String path, String name) {
+        pause(2000);
+        Assert.assertTrue(isFileDowmloaded(path,name));
+        pause(1000);
+        return null;
+    }
+
+    public boolean isFileDowmloaded(String path, String name) {
+        File dir = new File(path);
+        File[] dirContents = dir.listFiles();
+
+        for (int i = 0; i < dirContents.length; i++) {
+            if (dirContents[i].getName().equals(name)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public JQueryUIPage reoveDownloadedFile(String path, String name) {
+        pause(1000);
+        File dir = new File(path);
+        File[] dirContents = dir.listFiles();
+
+        for (int i = 0; i < dirContents.length; i++) {
+            if (dirContents[i].getName().contains(name)) {
+                dirContents[i].delete();
+                return this;
+            }
+        }
+
+        return this;
+
+    }
 }

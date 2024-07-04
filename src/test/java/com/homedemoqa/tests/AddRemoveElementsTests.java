@@ -18,14 +18,15 @@ public class AddRemoveElementsTests extends TestBase {
 
     @Test
     public void addElementsTest() {
-        new AddRemoveElementsPage(driver).getAddElemenets()
+        new AddRemoveElementsPage(driver).addElemenets()
                 .verifyAddElements()
         ;
+
     }
 
     @Test
     public void removeElementsTest() {
-        new AddRemoveElementsPage(driver).getRemoveElements()
+        new AddRemoveElementsPage(driver).removeElements()
                 .verifyRemoveElements()
         ;
     }

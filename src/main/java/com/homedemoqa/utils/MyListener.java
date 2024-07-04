@@ -21,7 +21,9 @@ import java.util.Random;
 
 public class MyListener implements WebDriverListener{
     Logger logger= LoggerFactory.getLogger(MyListener.class);
-
+    public MyListener(){
+        super();
+    }
     @Override
     public void beforeFindElement(WebDriver driver, By locator) {
         WebDriverListener.super.beforeFindElement(driver, locator);

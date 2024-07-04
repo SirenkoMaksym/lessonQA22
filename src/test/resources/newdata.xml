@@ -3,7 +3,7 @@
 <suite name="Tests" verbose="1">
     <test name="Test17">
         <classes>
-            <class name="com.homedemoqa.tests.">
+            <class name="com.homedemoqa.tests.HoversTest">
 <!--                <parameter name="" value=""></parameter>-->
             </class>
         </classes>

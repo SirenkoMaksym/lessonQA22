@@ -17,7 +17,7 @@ import java.lang.reflect.Method;
 
 public class TestBase {
 
-    public static WebDriver driver;
+    public WebDriver driver;
     protected static ApplicationManager app = new ApplicationManager
             (System.getProperty("browser","chrome"));
 
@@ -30,7 +30,7 @@ public class TestBase {
         driver = app.startTest();
     }
 
-    @AfterMethod(enabled = false)
+    @AfterMethod(enabled = true)
     public void tearDown(ITestResult result) {
         app.stopTest();
         if(result.isSuccess()){
