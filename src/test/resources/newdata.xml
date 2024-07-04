@@ -6,8 +6,8 @@
             <class name="com.homedemoqa.tests.HoversTest"/>
             <class name="com.homedemoqa.tests.ContextMenuTest"/>
             <class name="com.homedemoqa.tests.DragAndDropTest"/>
-<!--             <class name="com.homedemoqa.tests.ExitIntentTest"/>
-            <class name="com.homedemoqa.tests.HorizontalSliderTest"/>
+            <class name="com.homedemoqa.tests.ExitIntentTest"/>
+<!--             <class name="com.homedemoqa.tests.HorizontalSliderTest"/>
             <class name="com.homedemoqa.tests.NestedFramesTests"/>
             <class name="com.homedemoqa.tests.TextBoxTest"/> -->
         </classes>
