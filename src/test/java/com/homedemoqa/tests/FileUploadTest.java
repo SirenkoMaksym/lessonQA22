@@ -24,6 +24,6 @@ public class FileUploadTest extends TestBase{
     @Test
     public void fileUploadWithDragAndDrop(){
         new FileUploadPage(driver).dragAndDropFile()
-                .verifyFileUploadDragAndDrop("M17.txt");
+                .verifyFileUploadDragAndDrop("D1.txt");
     }
 }

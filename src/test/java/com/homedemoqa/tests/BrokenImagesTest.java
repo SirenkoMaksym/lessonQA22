@@ -5,7 +5,6 @@
 
 package com.homedemoqa.tests;
 
-import com.homedemoqa.pages.BasePage;
 import com.homedemoqa.pages.BrokenImagesPage;
 import com.homedemoqa.pages.HomePage;
 import org.testng.annotations.BeforeMethod;

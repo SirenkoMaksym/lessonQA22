@@ -5,8 +5,10 @@
 
 package com.homedemoqa.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BasePage {
@@ -96,5 +98,11 @@ public class HomePage extends BasePage {
     public BrokenImagesPage getBrokenImages() {
         click(image);
         return new BrokenImagesPage(driver);
+    }
+    @FindBy(xpath = "//*[2]/a")
+    WebElement addRemove;
+    public AddRemoveElementsPage getAddRemoveElements() {
+        new Actions(driver).sendKeys(Keys.TAB,Keys.TAB,Keys.TAB,Keys.ENTER).perform();
+        return new AddRemoveElementsPage(driver);
     }
 }

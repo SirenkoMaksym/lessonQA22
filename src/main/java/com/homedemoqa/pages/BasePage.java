@@ -5,10 +5,7 @@
 
 package com.homedemoqa.pages;
 
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Rectangle;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -65,6 +62,9 @@ public abstract class BasePage {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+    }
+    public boolean isElementPresent(By locator){
+        return driver.findElements(locator).size()>0;
     }
     protected boolean isElementVisible(WebElement element) {
         try {
