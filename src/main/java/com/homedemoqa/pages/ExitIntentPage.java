@@ -19,7 +19,7 @@ public class ExitIntentPage extends BasePage {
     }
 
     public ExitIntentPage getExistIntern() {
-        Robot robot = null;
+        Robot robot;
         try {
             robot = new Robot();
         } catch (AWTException e) {
@@ -30,6 +30,7 @@ public class ExitIntentPage extends BasePage {
         robot.mousePress(KeyEvent.BUTTON1_DOWN_MASK);
         robot.mouseRelease(KeyEvent.BUTTON1_DOWN_MASK);
         robot.mouseMove(2, 2);
+        pause(1000);
         return this;
     }
 
