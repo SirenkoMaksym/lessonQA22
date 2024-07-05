@@ -1,0 +1,101 @@
+20:39:11.824 [main] INFO  com.homedemoqa.tests.TestBase - Start test: SelectSubMenuUser1
+20:39:16.328 [main] INFO  com.homedemoqa.utils.MyListener - Something went wrong!!!
+20:39:16.329 [main] INFO  com.homedemoqa.utils.MyListener - ***********************************************************
+20:39:16.330 [main] INFO  com.homedemoqa.utils.MyListener - Method --> to
+20:39:16.330 [main] INFO  com.homedemoqa.utils.MyListener - ***********************************************************
+20:39:16.335 [main] INFO  com.homedemoqa.utils.MyListener - Target exception org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c89898e6c99b498dd9d16298d3a36117, get {url=https://the-internet.herokuapp.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57888}, msedge: {msedgedriverVersion: 126.0.2592.61 (12efce1c0fb4..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57888/devtoo..., se:cdpVersion: 126.0.2592.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c89898e6c99b498dd9d16298d3a36117
+20:39:16.335 [main] INFO  com.homedemoqa.utils.MyListener - Screenshot with error --> screenshots/screen_1464.png
+20:39:16.366 [main] INFO  com.homedemoqa.tests.TestBase - Start test: contextMenuTest
+20:39:20.266 [main] INFO  com.homedemoqa.utils.MyListener - Something went wrong!!!
+20:39:20.266 [main] INFO  com.homedemoqa.utils.MyListener - ***********************************************************
+20:39:20.267 [main] INFO  com.homedemoqa.utils.MyListener - Method --> to
+20:39:20.267 [main] INFO  com.homedemoqa.utils.MyListener - ***********************************************************
+20:39:20.267 [main] INFO  com.homedemoqa.utils.MyListener - Target exception org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8a09c66d176bda9ec2a155605f483a0f, get {url=https://the-internet.herokuapp.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57916}, msedge: {msedgedriverVersion: 126.0.2592.61 (12efce1c0fb4..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57916/devtoo..., se:cdpVersion: 126.0.2592.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a09c66d176bda9ec2a155605f483a0f
+20:39:20.267 [main] INFO  com.homedemoqa.utils.MyListener - Screenshot with error --> screenshots/screen_1857.png
+20:39:20.283 [main] INFO  com.homedemoqa.tests.TestBase - Start test: DragAndDropTest
+20:39:24.441 [main] INFO  com.homedemoqa.utils.MyListener - Something went wrong!!!
+20:39:24.442 [main] INFO  com.homedemoqa.utils.MyListener - ***********************************************************
+20:39:24.442 [main] INFO  com.homedemoqa.utils.MyListener - Method --> to
+20:39:24.442 [main] INFO  com.homedemoqa.utils.MyListener - ***********************************************************
+20:39:24.454 [main] INFO  com.homedemoqa.utils.MyListener - Target exception org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [78f61f31fc001fe456e20754a94d7458, get {url=https://the-internet.herokuapp.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57944}, msedge: {msedgedriverVersion: 126.0.2592.61 (12efce1c0fb4..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57944/devtoo..., se:cdpVersion: 126.0.2592.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 78f61f31fc001fe456e20754a94d7458
+20:39:24.463 [main] INFO  com.homedemoqa.utils.MyListener - Screenshot with error --> screenshots/screen_1452.png
+20:39:24.484 [main] INFO  com.homedemoqa.tests.TestBase - Start test: exitInternTest
+20:39:28.555 [main] INFO  com.homedemoqa.utils.MyListener - Something went wrong!!!
+20:39:28.555 [main] INFO  com.homedemoqa.utils.MyListener - ***********************************************************
+20:39:28.555 [main] INFO  com.homedemoqa.utils.MyListener - Method --> to
+20:39:28.555 [main] INFO  com.homedemoqa.utils.MyListener - ***********************************************************
+20:39:28.556 [main] INFO  com.homedemoqa.utils.MyListener - Target exception org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0706bb2782fa90d4903decd82d57afde, get {url=https://the-internet.herokuapp.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57976}, msedge: {msedgedriverVersion: 126.0.2592.61 (12efce1c0fb4..., userDataDir: C:\Users\IMT-TE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57976/devtoo..., se:cdpVersion: 126.0.2592.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0706bb2782fa90d4903decd82d57afde
+20:39:28.556 [main] INFO  com.homedemoqa.utils.MyListener - Screenshot with error --> screenshots/screen_1041.png
+20:39:28.564 [main] INFO  com.homedemoqa.tests.TestBase - Start test: moveHorizontSlider
+20:39:37.532 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[24]/a
+20:39:38.044 [Forwarding actions on session 4b0158a33f1872e19f785a9cdda8d604 to remote] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //span[@id='range']/parent::*/input
+20:39:38.451 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //span[@id='range']
+20:39:39.888 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED moveHorizontSlider
+20:39:39.888 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+20:39:39.889 [main] INFO  com.homedemoqa.tests.TestBase - Start test: moveHorizontSliderWith
+20:39:46.390 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[24]/a
+20:39:48.478 [Forwarding actions on session bad76478e27799685722306b30064b5d to remote] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //span[@id='range']/parent::*/input
+20:39:48.710 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //span[@id='range']
+20:39:50.195 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED moveHorizontSliderWith
+20:39:50.195 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+20:39:50.198 [main] INFO  com.homedemoqa.tests.TestBase - Start test: framesTest
+20:39:55.449 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[34]/a
+20:39:57.407 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED framesTest
+20:39:57.407 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+20:39:57.408 [main] INFO  com.homedemoqa.tests.TestBase - Start test: switchToIframeByElementTest
+20:40:02.519 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[34]/a
+20:40:03.167 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[@name='frame-bottom']
+20:40:03.212 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.cssSelector: body
+20:40:04.667 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED switchToIframeByElementTest
+20:40:04.667 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+20:40:04.670 [main] INFO  com.homedemoqa.tests.TestBase - Start test: switchToIframeByIndexTest
+20:40:10.631 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[34]/a
+20:40:11.262 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.cssSelector: body
+20:40:12.650 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED switchToIframeByIndexTest
+20:40:12.650 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+20:40:12.651 [main] INFO  com.homedemoqa.tests.TestBase - Start test: switchToNestedLeftIframeTest
+20:40:17.575 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[34]/a
+20:40:18.177 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //frame[1]
+20:40:18.215 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.cssSelector: body
+20:40:19.624 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED switchToNestedLeftIframeTest
+20:40:19.624 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+20:40:19.625 [main] INFO  com.homedemoqa.tests.TestBase - Start test: switchToNestedMiddleIframeTest
+20:40:24.723 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[34]/a
+20:40:25.387 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //frame[2]
+20:40:25.438 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.cssSelector: body
+20:40:26.737 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED switchToNestedMiddleIframeTest
+20:40:26.737 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+20:40:26.738 [main] INFO  com.homedemoqa.tests.TestBase - Start test: switchToNestedRightIframeTest
+20:40:31.945 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[34]/a
+20:40:32.990 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //frame[3]
+20:40:33.093 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.cssSelector: body
+20:40:36.026 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED switchToNestedRightIframeTest
+20:40:36.026 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************

@@ -13,7 +13,7 @@ import org.testng.Assert;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
-public class ExitIntentPage extends BasePage{
+public class ExitIntentPage extends BasePage {
     public ExitIntentPage(WebDriver driver) {
         super(driver);
     }
@@ -26,16 +26,18 @@ public class ExitIntentPage extends BasePage{
             throw new RuntimeException(e);
         }
         pause(1000);
-        robot.mouseMove(200,200);
+        robot.mouseMove(200, 200);
         robot.mousePress(KeyEvent.BUTTON1_DOWN_MASK);
         robot.mouseRelease(KeyEvent.BUTTON1_DOWN_MASK);
-        robot.mouseMove(2,2);
+        robot.mouseMove(2, 2);
         return this;
     }
-@FindBy(id = "ouibounce-modal")
+
+    @FindBy(id = "ouibounce-modal")
     WebElement modal;
+
     public ExitIntentPage verifyExiTIntern(String text) {
-        Assert.assertTrue(shouldHaveText(modal,text,5));
+        Assert.assertTrue(shouldHaveText(modal, text, 5));
         return this;
     }
 }

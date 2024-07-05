@@ -1,0 +1,8 @@
+09:44:37.950 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\IMT - Teilnehmer\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+09:44:38.068 [main] INFO  com.homedemoqa.tests.TestBase - Start test: exitInternTest
+09:44:43.288 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[16]/a
+09:44:44.974 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.id: ouibounce-modal
+09:44:46.404 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED exitInternTest
+09:44:46.404 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************

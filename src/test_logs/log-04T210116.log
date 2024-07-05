@@ -1,0 +1,83 @@
+21:01:17.379 [main] INFO  com.homedemoqa.tests.TestBase - Start test: SelectSubMenuUser1
+21:01:20.018 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[25]/a
+21:01:21.463 [Forwarding actions on session 819b75721aabc218a952e10f786f1190 to remote] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //div[@class='example']/div[1]
+21:01:21.622 [Forwarding actions on session 819b75721aabc218a952e10f786f1190 to remote] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //div[@class='example']/div[1]/div/a[@href='/users/1']
+21:01:21.777 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //div[@class='example']/div[1]/div/a[@href='/users/1']
+21:01:22.052 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED SelectSubMenuUser1
+21:01:22.052 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+21:01:22.055 [main] INFO  com.homedemoqa.tests.TestBase - Start test: SelectSubMenuUser2
+21:01:24.822 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[25]/a
+21:01:25.175 [Forwarding actions on session c9463be2b3d23b48295ff454edc8ccd2 to remote] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //div[@class='example']/div[2]
+21:01:25.320 [Forwarding actions on session c9463be2b3d23b48295ff454edc8ccd2 to remote] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //div[@class='example']/div[2]/div/a[@href='/users/2']
+21:01:25.459 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //div[@class='example']/div[2]/div/a[@href='/users/2']
+21:01:25.641 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED SelectSubMenuUser2
+21:01:25.641 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+21:01:25.643 [main] INFO  com.homedemoqa.tests.TestBase - Start test: SelectSubMenuUser3
+21:01:28.342 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[25]/a
+21:01:28.715 [Forwarding actions on session fec3f55de98b61c187ab0f85b4a5716b to remote] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //div[@class='example']/div[3]
+21:01:28.869 [Forwarding actions on session fec3f55de98b61c187ab0f85b4a5716b to remote] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //div[@class='example']/div[3]/div/a[@href='/users/3']
+21:01:29.039 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //div[@class='example']/div[3]/div/a[@href='/users/3']
+21:01:29.206 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED SelectSubMenuUser3
+21:01:29.206 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+21:01:29.209 [main] INFO  com.homedemoqa.tests.TestBase - Start test: contextMenuTest
+21:01:32.079 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[7]/a
+21:01:32.363 [Forwarding actions on session a7dc2a07f24c5342f838bfe7573e591e to remote] INFO  com.homedemoqa.utils.MyListener - After find element --> By.id: hot-spot
+21:01:32.818 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED contextMenuTest
+21:01:32.818 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+21:01:32.820 [main] INFO  com.homedemoqa.tests.TestBase - Start test: DragAndDropTest
+21:01:35.591 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[10]/a
+21:01:35.891 [Forwarding actions on session 52dfe44bbb44e7f56071499c1390ada2 to remote] INFO  com.homedemoqa.utils.MyListener - After find element --> By.id: column-a
+21:01:35.913 [Forwarding actions on session 52dfe44bbb44e7f56071499c1390ada2 to remote] INFO  com.homedemoqa.utils.MyListener - After find element --> By.id: column-b
+21:01:36.180 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.id: column-a
+21:01:36.425 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED DragAndDropTest
+21:01:36.425 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+21:01:36.426 [main] INFO  com.homedemoqa.tests.TestBase - Start test: exitInternTest
+21:01:39.359 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[16]/a
+21:01:40.803 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.id: ouibounce-modal
+21:01:41.109 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED exitInternTest
+21:01:41.109 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+21:01:41.111 [main] INFO  com.homedemoqa.tests.TestBase - Start test: moveHorizontSlider
+21:01:43.928 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[24]/a
+21:01:44.190 [Forwarding actions on session 5ecbfabd72eece596d7a8994d0d5af17 to remote] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //span[@id='range']/parent::*/input
+21:01:44.568 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //span[@id='range']
+21:01:44.793 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED moveHorizontSlider
+21:01:44.793 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+21:01:44.794 [main] INFO  com.homedemoqa.tests.TestBase - Start test: moveHorizontSliderWith
+21:01:47.561 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[24]/a
+21:01:47.845 [Forwarding actions on session ceb8ce41dd5dcd51088fe5be3a056d16 to remote] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //span[@id='range']/parent::*/input
+21:01:48.036 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //span[@id='range']
+21:01:48.418 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED moveHorizontSliderWith
+21:01:48.418 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+21:01:48.419 [main] INFO  com.homedemoqa.tests.TestBase - Start test: framesTest
+21:01:51.342 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[34]/a
+21:01:52.060 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED framesTest
+21:01:52.061 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+21:01:52.063 [main] INFO  com.homedemoqa.tests.TestBase - Start test: switchToIframeByElementTest
+21:01:54.979 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[34]/a
+21:01:55.492 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[@name='frame-bottom']
+21:01:55.542 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.cssSelector: body
+21:01:55.746 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED switchToIframeByElementTest
+21:01:55.746 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+21:01:55.747 [main] INFO  com.homedemoqa.tests.TestBase - Start test: switchToIframeByIndexTest
+21:01:58.655 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[34]/a
+21:01:59.230 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.cssSelector: body
+21:01:59.409 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED switchToIframeByIndexTest
+21:01:59.409 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+21:01:59.410 [main] INFO  com.homedemoqa.tests.TestBase - Start test: switchToNestedLeftIframeTest
+21:02:02.093 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[34]/a
+21:02:02.617 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //frame[1]
+21:02:02.656 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.cssSelector: body
+21:02:02.871 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED switchToNestedLeftIframeTest
+21:02:02.872 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+21:02:02.873 [main] INFO  com.homedemoqa.tests.TestBase - Start test: switchToNestedMiddleIframeTest
+21:02:05.752 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[34]/a
+21:02:06.335 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //frame[2]
+21:02:06.385 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.cssSelector: body
+21:02:06.603 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED switchToNestedMiddleIframeTest
+21:02:06.603 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
+21:02:06.604 [main] INFO  com.homedemoqa.tests.TestBase - Start test: switchToNestedRightIframeTest
+21:02:09.186 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //*[34]/a
+21:02:09.736 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.xpath: //frame[3]
+21:02:09.783 [main] INFO  com.homedemoqa.utils.MyListener - After find element --> By.cssSelector: body
+21:02:10.048 [main] INFO  com.homedemoqa.tests.TestBase - Test result: PASSED switchToNestedRightIframeTest
+21:02:10.049 [main] INFO  com.homedemoqa.tests.TestBase - **************************************************************
